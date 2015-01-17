@@ -1,8 +1,8 @@
 extern crate time;
 use time::*;
 
-fn tm_to_string(time: Tm) -> &str {
-  return "I AM A STRING";
+fn tm_to_string(time: Tm) -> Str {
+  return format!("BBB {}", time);
 }
 
 fn main() {
