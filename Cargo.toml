@@ -3,6 +3,12 @@
 name = "cal"
 version = "0.0.1"
 authors = [ "Parker Moore <parkrmoore@gmail.com>" ]
+description = "A drop-in Rust replacement for `cal`."
+homepage = "https://github.com/parkr/cal-rust"
+repository = "https://github.com/parkr/cal-rust"
+readme = "README.md"
+keywords = ["cal", "calendar", "time"]
+license = "MIT"
 
 [dependencies]
 
